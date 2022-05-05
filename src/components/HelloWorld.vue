@@ -4,8 +4,14 @@
     <tr>
       <!--table row-->
       <td colspan="5">
-        
-      </td>
+      <!--span-->
+      <input
+      v-model="screen"
+      dir="ltr"
+      type="number"
+      id="result"
+      style="padding:5px;font-wright:bold; tex-align:right"
+      />
       </td>
     </tr>
   </div>
